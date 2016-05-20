@@ -1,3 +1,4 @@
+require 'gamemaster'
 describe GameMaster do
   subject(:test_game_master) {described_class.new 10, 10, dummy_cell_class}
   let(:dummy_cell) {double :cell}
