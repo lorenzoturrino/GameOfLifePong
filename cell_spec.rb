@@ -7,4 +7,10 @@ describe Cell do
     end
   end
 
+  describe '#friends' do
+    it 'returns an array of close cells' do
+      expect(test_cell.alive[0].class).to_eq test_cell.class
+    end
+  end
+
 end
